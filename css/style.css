@@ -1,0 +1,31 @@
+/*fonctionnement affichage*/
+
+.btn, .rejouer {
+	cursor: pointer;
+}
+.resultat {
+	display: none;
+}
+
+.resultat.active {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resultat-text {
+	display: none
+}
+
+.resultat-text.active {
+	display: block;
+}
+
+.choix {
+	display: flex;
+	justify-content: space-around;
+}
+
+.choix.active {
+	display: none;
+}
